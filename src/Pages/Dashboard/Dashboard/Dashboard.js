@@ -99,7 +99,7 @@ function Dashboard(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Dashboard
+            Dashboard {admin ? 'Admin' : 'User'}
           </Typography>
         </Toolbar>
       </AppBar>
